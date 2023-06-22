@@ -3,51 +3,78 @@ Console.WriteLine("Hello, World!");
 
 
 
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+
+
+
 int opcion;
 // bool anda= false;
-bool anda2=false;
+
+//  Console.WriteLine("Ingrese la operacion a realizar: ");
+//         Console.WriteLine("1.Suma\n2.Resta\n3.Multiplicacion\n4.Division");
+//         anda = int.TryParse(Console.ReadLine(), out opcion);
 
 
+int a, b;
 
-
-float a, b;
-int  mcm, mcd, a2, b2, minimo;
-int num1, num2;
-
-
-
-
-float x;
+bool anda =false;
 
 
 
 
 do
 {
+     
+
+
+     do
+     {
+        
+         Console.WriteLine("Ingrese el primero numero: ");
+
+            anda = int.TryParse(Console.ReadLine(), out a);// convierte lo que escribo 
     
+          Console.WriteLine("Ingrese el segundo numero: ");
 
-    Console.WriteLine("Ingrese un numero: ");
-    // anda = float.TryParse(Console.ReadLine(), out a);// convierte lo que escribo en float
+            anda = int.TryParse(Console.ReadLine(), out b);
 
-   a = Convert.ToInt32(Console.ReadLine());  // convierte lo que ingreso por teclado a entero?
-
-
-
-
-
-      Console.WriteLine("Ingrese el segundo numero: ");
-
-
-      b = Convert.ToInt32(Console.ReadLine());
-
-
-
-    Console.WriteLine("Elija una opcion: ");
+         Console.WriteLine("Elija una opcion: ");
 
         Console.WriteLine("1/ -Sumar-  2/ -Restar  3/-Multiplicar ");
 
      
-     opcion=Convert.ToInt32(Console.ReadLine());
+     anda=int.TryParse(Console.ReadLine(), out opcion);
+
+
+
+     } while (!anda);
+
+
+
+
+    // Console.WriteLine("Ingrese el primero numero: ");
+
+
+    // int a = Convert.ToInt32(Console.ReadLine());  // convierte lo que ingreso por teclado a entero?
+
+
+
+    // // anda =int.TryParse(ingreso, out ingreso);
+
+    //   Console.WriteLine("Ingrese el segundo numero: ");
+
+
+    //  int b = Convert.ToInt32(Console.ReadLine());
+
+    // // anda =int.TryParse(ingreso, out ingreso);
+
+    // Console.WriteLine("Elija una opcion: ");
+
+    //     Console.WriteLine("1/ -Sumar-  2/ -Restar  3/-Multiplicar ");
+
+     
+    //  opcion=Convert.ToInt32(Console.ReadLine());
 
            switch (opcion)
     {
@@ -86,13 +113,25 @@ do
 } while (opcion !=0);
 
 
-  Console.WriteLine("- - - - CALCULADORA2- - - -");
+/*calculadora 2*/
 
-  while (!anda2)
+   
+int x;
+int  mcm, mcd, a2, b2, minimo;
+int num1, num2;
+
+
+bool bandera =false;
+
+int a1, b1;
+
+  
+
+  while (!bandera)
   {
     
     Console.WriteLine("Ingrese un numero: ");
-    anda2 = float.TryParse(Console.ReadLine(), out x);// convierte lo que escribo en float
+    bandera = int.TryParse(Console.ReadLine(), out x);
     
 
    
@@ -109,9 +148,16 @@ do
 
 
          Console.WriteLine("Primer numero: ");
-    int a1 = Convert.ToInt32(Console.ReadLine());
+
+  bandera = int.TryParse(Console.ReadLine(), out a1);
+
+    // int a = Convert.ToInt32(Console.ReadLine());
+
+
      Console.WriteLine("Segundo numero: ");
-   int  b1 = Convert.ToInt32(Console.ReadLine());
+  bandera = int.TryParse(Console.ReadLine(), out b1);
+
+//    int  b = Convert.ToInt32(Console.ReadLine());
 
    
     
@@ -139,13 +185,6 @@ do
     mcm=0;
 
 
-
-    
-
-
-
-
-
     for (int i = 1; i <= minimo; i++)
     {
         if (a1%i==0 && b1%i==0)
@@ -161,6 +200,10 @@ do
 
   Console.ReadKey(true);
 
+
+
+
+        
  } 
 
 
@@ -168,16 +211,4 @@ do
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
