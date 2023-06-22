@@ -64,9 +64,6 @@ do
 {
     
 
-
-
-
     Console.WriteLine("Ingrese el primer numero: ");
 
 
