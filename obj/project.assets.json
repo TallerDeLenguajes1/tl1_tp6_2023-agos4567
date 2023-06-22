@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROG BY NG\\Desktop\\taller1\\SegundoParcialTp\\practico6\\practico6.csproj",
+      "projectUniqueName": "C:\\Repogit\\tp6\\practico6\\practico6.csproj",
       "projectName": "practico6",
-      "projectPath": "C:\\Users\\ROG BY NG\\Desktop\\taller1\\SegundoParcialTp\\practico6\\practico6.csproj",
+      "projectPath": "C:\\Repogit\\tp6\\practico6\\practico6.csproj",
       "packagesPath": "C:\\Users\\ROG BY NG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ROG BY NG\\Desktop\\taller1\\SegundoParcialTp\\practico6\\obj\\",
+      "outputPath": "C:\\Repogit\\tp6\\practico6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ROG BY NG\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
