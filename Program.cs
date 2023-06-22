@@ -3,17 +3,8 @@ Console.WriteLine("Hello, World!");
 
 
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-
-
 int opcion;
-// bool anda= false;
 
-//  Console.WriteLine("Ingrese la operacion a realizar: ");
-//         Console.WriteLine("1.Suma\n2.Resta\n3.Multiplicacion\n4.Division");
-//         anda = int.TryParse(Console.ReadLine(), out opcion);
 
 
 int a, b;
